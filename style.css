@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    min-width: 32.0rem;
+    margin: auto;
+    
+ 
+}
+
+header{
+    padding: 1.0rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo{
+    padding-left: 1.6rem;
+}
+header li{
+    list-style: none;
+    padding-right: 2.9rem;
+}
+
+#hero img{
+   
+   width: 100%;
+   height: auto;
+   position: relative;
+   
+}
+
+#hero .content{
+    position: absolute;
+    z-index: 999;
+    top: 4.6rem;
+    padding: 2.0rem 0 0 1.6rem;
+}
+
+
+
+#hero .content h2{
+
+    font-size: 1.0rem;
+    font-weight: 400;
+    width: 9.8rem;
+    text-transform: uppercase;
+    margin-left: 0.4rem;
+    
+}
+
+#hero .content h1{
+    font-size: 2.8rem;
+    margin-top: 0.6rem;
+}
+
+#hero .content button{
+    border: none;
+    border-radius: 5.0rem 10.0rem 0rem 5.0rem;
+    background: linear-gradient(113deg, #1D660B -32.02%, #678013 83.24%);
+
+    width: 7.4rem;
+    height: 2.0rem;
+    font-size: 1.1rem;
+    color: white;
+    margin: 0.4rem 0 0 0.2rem;
+}
+
+
+#bodycont h1{
+
+    margin: 2.3rem auto;
+    width: 24rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#bodycont h1 span{
+    font-weight: 800;
+}
+#cards{
+    display: flex;
+    width: 27.3rem;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+   
+}
+#cards .cardcont{
+   
+    width: 12.8rem;
+    height: 13.5rem;
+    background: #EEE;
+  
+    border-radius: 1.1rem;
+}
+.cardcont img{
+    margin: 1.3rem 1rem 0;
+}
+
+.cardcont h2{
+    font-size: 1rem;
+    margin: 0.6rem 0 0 1.3rem ;
+}
+.cardcont > .categoria{
+    color: #799612;
+    margin-left: 1.3rem;
+    /* padding-top: 0.2rem; */
+    font-size: 1rem;
+}
+
+/* ************Card with a description Mobile */
+
+.cardescript{
+    margin: 2.7rem auto;
+    width: 27.3rem;
+    height: 35.2rem;
+    background: #EEE;
+    /* margin: 0 2.4rem; */
+    border-radius: 1.1rem;
+}
+.cardescript img{
+    margin: 1.4rem 1.5rem 0;
+}
+.cardescript h2{
+    font-size: 1.2rem;
+    margin: 2.5rem 0 1rem 2rem ;
+    text-transform: uppercase;
+    color: #799612;
+}
+.cardescript p{
+    width: 23.1rem;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cardescript p span{
+    color: #799612;
+}
+
+.cardescript > .categoria{
+    color: #799612;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+/* Tablet *********************************************/
+@media (min-width: 400px){
+
+    #hero .content{
+        padding: 2.8rem 0 0 3.6rem;
+    }
+
+    #hero .content h2{
+
+        font-size: 1.1rem;
+        width: 13.3rem;
+
+    }
+    
+    #hero .content h1{
+        font-size: 3.5rem;
+    }
+
+    #hero .content button{
+
+        width: 10.4rem;
+        height: 2.8rem;
+        font-size: 1.4rem;
+    }
+
+    #cards{
+        width: 30rem;
+    }
+    #cards .cardcont{
+   
+        width: 13.8rem;
+        height: 14.5rem;
+        
+    }
+    .cardcont img{
+        margin: 1.5rem 1.3rem 0;
+        width: 80%;
+    } 
+    .cardcont h2{
+        font-size: 1rem;
+        margin: 0.6rem 0 0 1.3rem ;
+    }
+    .cardcont > .categoria{
+        color: #799612;
+        margin-left: 1.3rem;
+        /* padding-top: 0.2rem; */
+        font-size: 1rem;
+    }
+ }
+
+ /* Tablet ****************/
+ @media (min-width: 600px){
+
+    #hero .content{
+        padding: 5.2rem 0 0 4.8rem;
+    }
+    #hero .content h2{
+        font-size: 1.4rem;
+        width: 15.3rem;
+
+    }
+    
+    #hero .content h1{
+        font-size: 5.5rem;
+    }
+
+    #hero .content button{
+        width: 11.5rem;
+        height: 2.9rem;
+        font-size: 1.6rem;
+    }
+    .cardescript{
+        display: none;
+    }
+
+
+ }
+
+ @media (min-width: 800px){
+
+    #hero .content{
+        padding: 6.2rem 0 0 5.8rem;
+    }
+    #hero .content h2{
+        font-size: 2rem;
+        width: 20.3rem;
+
+    }
+    
+    #hero .content h1{
+        font-size: 7.5rem;
+    }
+
+    #hero .content button{
+        width: 15.5rem;
+        height: 3.9rem;
+        font-size: 1.9rem;
+    }
+ }
+
+ @media (min-width: 1024px){
+
+    #hero .content{
+        padding: 7.2rem 0 0 5.8rem;
+    }
+    #hero .content h2{
+        font-size: 2rem;
+        width: 26.3rem;
+
+    }
+    
+    #hero .content h1{
+        font-size: 9.4rem;
+    }
+
+    #hero .content button{
+        width: 17.5rem;
+        height: 4.9rem;
+        font-size: 2.4rem;
+    }
+ }
